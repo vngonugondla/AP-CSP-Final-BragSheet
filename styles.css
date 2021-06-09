@@ -1,0 +1,69 @@
+body{
+    font-family: 'Montserrat', sans-serif;
+    background-color:#F4AFAB;
+    text-align: center;
+}
+
+img{
+  object-fit: cover;
+  margin:5px;
+  height: 150px;
+  width: 170px;
+}
+
+.images1{
+    display: flex;
+    justify-content: center;
+    flex-direction: wrap;
+    outline: 5px dashed #f8f6f6;
+}
+
+.header{
+    background-color: #e6b9b9;
+    height: 50px;
+    width: 250px;
+    margin: 10px auto;
+}
+
+.profile{
+    height: 245px;
+    width: 350px;
+    margin-top: 25px;
+    margin-bottom: 20px;
+    display: flex; 
+    flex-direction: wrap;
+    float: left;
+    width: 45%;
+}
+
+.socials{
+    height: 40px; 
+    width: 40px;
+    
+}
+
+.bio{
+    text-align: center;
+    width: 400px;
+    height: 50px;
+    float: right;
+    width: 50%;
+    margin-top: 100px;
+}
+
+.description{
+    flex-direction: wrap;
+    margin-right: 20px;
+}
+
+.socialMedia {
+    display: flex;
+    flex-direction: wrap;
+    justify-content: center;
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    color: white;
+    text-align: center;
+  }  
